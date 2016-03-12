@@ -5,13 +5,7 @@ body {
 	width: 900px;
 	margin: :0 auto;
 }
-.myDiv {
-	
-	background-repeat: no-repeat;
-	background-position: top center;
-	width: 900px;
-	margin: :0 auto;
-}
+
 .top-thing {
 	text-align: center;
 }
@@ -24,7 +18,13 @@ h1 {
 input, button {
 	font-size: 18px;
 	border-radius: 5px;
+	padding: 1px;
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
 }
+
 #new-todo {
 	width: 250px
 }
@@ -33,10 +33,9 @@ input, button {
 	color: red;
 	display: none;
 }
-.groove {
-    border-style: solid;
-    border-width: 5px;
-    border-color: #33cccc;
+#list {
+	border: 5px solid turquoise;
+	margin-top: 10px;
 }
 li {
 	border-top: 1px solid #000;
@@ -44,11 +43,14 @@ li {
 	margin: 10px 0px;
 	padding: 8px;
 	list-style: none;
+	color: #ff0066;
+	text-align: center;
 }
 .done {
 	text-decoration: line-through;
-	color: #999;
+	color: #ff0066;
 	height: 20px;
+
 }
 .item {
 	font-size: 10px;

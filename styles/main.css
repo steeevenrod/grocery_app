@@ -1,21 +1,26 @@
 body {
-	background-image: url('../images/opened-fridge.jpg');
-	background-repeat: no-repeat;
+
+	background-color: #202020;
 	background-position: top center;
-	width: 500px;
+	width: 900px;
 	margin: :0 auto;
 }
 .myDiv {
-	background-image: url('../images/opened-fridge.jpg');
+	
 	background-repeat: no-repeat;
 	background-position: top center;
-	width: 500px;
+	width: 900px;
 	margin: :0 auto;
+}
+.top-thing {
+	text-align: center;
 }
 h1 {
 	font-size: 40px;
 	margin: 10px 0px;
+	color: #ff0066;
 }
+
 input, button {
 	font-size: 18px;
 	border-radius: 5px;
@@ -27,6 +32,11 @@ input, button {
 	margin: 6px 0px;
 	color: red;
 	display: none;
+}
+.groove {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #33cccc;
 }
 li {
 	border-top: 1px solid #000;
